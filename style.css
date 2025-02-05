@@ -311,6 +311,7 @@ margin: 0 20px;
     display: flex;
     margin: 1px;
     gap: 8px;
+
   }
   .menu-section a{
     margin: 5px;
@@ -336,10 +337,10 @@ margin: 0 20px;
     border-radius: 12px;
     border-style: none;
     /* padding: 8px; */
-   width: 300px;
+    width: 300px;
     /* padding-left: 10px; */
     background-color: #4f5c9c29;
-    overflow: hidden;
+overflow: hidden;
     
   }
   
@@ -398,7 +399,7 @@ margin: 0 20px;
     
   }
   .section-2 h1{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 0.1;
     letter-spacing: 10px;
   }
@@ -411,6 +412,7 @@ margin: 0 20px;
     margin-top: -10px;
   }
   .web-ss-section{
+    
     display: grid;
     grid-template-columns: 1fr;
     
@@ -418,7 +420,7 @@ margin: 0 20px;
     
   }
   .web-ss-section img{
-    width: 420px;
+    width: 380px;
     height: auto;
     
   }
@@ -442,7 +444,7 @@ margin: 0 20px;
     grid-template-rows: 1fr 1fr;
   }
   .right-side img{
-    width: 150px;
+    width: 130px;
     height: auto;
   }
   .left-side{
