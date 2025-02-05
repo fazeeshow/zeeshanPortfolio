@@ -1,0 +1,539 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Apercu', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* landig page */
+h2:hover{
+
+    color: rgb(255, 174, 0);
+}
+h1:hover{
+    color: rgb(255, 174, 0);
+}
+.main-conatiner{
+  background-color: #72768B29;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main-conatiner h2{
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: -40px;
+  
+  
+}
+.main-conatiner h1{
+  font-size: 80px;
+  letter-spacing: 7px;
+  margin-top: -20px;
+  
+}
+.images{
+  margin-top: -60px;
+  
+}
+.images img{
+  padding: 11px;
+  width: 30px;
+  height: auto;
+}
+
+
+/* section 2 */
+
+
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: #DBDEEC29;
+}
+.section-2 h2{
+  font-weight: 400;
+  font-size: large;
+  line-height: 0.1;
+  margin-bottom: -20px;
+  padding-top: 20px;
+}
+.section-2 h1{
+  font-size: 120px;
+  line-height: 0.1;
+  letter-spacing: 10px;
+}
+.section-2 p{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
+  margin-top: -10px;
+}
+.web-ss-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  
+}
+.web-ss-section img{
+  width: 520px;
+  height: auto;
+  
+}
+.web-ss img{
+  border-radius: 20px;
+  
+}
+.section-2 button{
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-style: none;
+  border-radius: 20px;
+  width:250px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+
+/* section 3 */
+
+
+.section-3{
+  display: flex;
+  justify-content: space-around;
+  background-color: #72768B29;
+  padding-top: 80px;
+}
+.right-side{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.right-side img{
+  width: 300px;
+  height: auto;
+}
+.left-side{
+
+}
+.left-side h2{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 0.1;
+  margin-bottom: -18px;
+}
+.left-side h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+
+}
+
+
+/* footer */
+
+
+.f a{
+  color: black;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #72768B29;
+  padding-bottom: 150px;
+}
+.bottom-footer{
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 5px;
+  
+}
+.top-footer{
+  margin-left: 140px;
+}
+hr{
+  width: 100%;
+  border-style: dotted;
+  
+}
+
+
+/* header */
+
+header{
+  background-color: #72768B29;
+  
+}
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.bradn-name{
+  margin: 0 50px 0 0 ;
+}
+.bradn-name:hover{
+  cursor:grabbing;
+    color: rgb(255, 174, 0);
+}
+.menu-section{
+
+}
+.menu-section a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+a:hover{
+  cursor:grabbing;
+    color: rgb(255, 174, 0);
+}
+.search-button {
+  margin: 0 30px;
+
+}
+
+input{
+  height: 25px;
+  border-radius: 30px;
+  border-style: none;
+  padding: 8px;
+  width: auto;
+  padding-left: 10px;
+  background-color: #4f5c9c29;
+}
+
+.button{
+margin: 0 20px;
+}
+.button :hover{
+  cursor:grabbing;
+  color: rgb(255, 174, 0);
+}
+.button button{
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border-style: none;
+  padding: 11px 15px;
+  border-radius: 24px;
+  font-weight: 600;
+
+}
+
+
+/* floateing footer */
+
+
+
+.floating-footer{
+  position: fixed;
+  bottom: 2%;
+  left: 23%;
+  background-color: #332828;
+  padding: 12px 30px;
+  border-radius: 10px;
+  opacity: 0.7;
+
+}
+.btn{
+  width: 130px;
+  height: 45px;
+  border: 1px solid rgb(197, 194, 194);
+  border-radius: 10px;
+  background-color: #8F999ECC;
+  margin: 0 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-1{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  width: 75px;
+  height: 75px;
+}
+ .btn-1:hover{
+  color: rgb(252, 164, 1);
+}
+.btn:hover{
+  color: rgb(252, 164, 1);
+  cursor:grabbing
+}
+
+
+
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+
+  }
+ 
+  .bradn-name{
+    margin:0 30px ;
+    font-size: 13px;
+    
+  }
+  .bradn-name:hover{
+    cursor:grabbing;
+      color: rgb(255, 174, 0);
+  }
+  .menu-section{
+    display: flex;
+    margin: 1px;
+    gap: 8px;
+  }
+  .menu-section a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+  a:hover{
+    cursor:grabbing;
+      color: rgb(255, 174, 0);
+  }
+  .search-button {
+    margin: 3px;
+    position: absolute;
+    left: 20px;
+    top: 75px;
+  }
+  
+  input{
+    height: 20px;
+    border-radius: 12px;
+    border-style: none;
+    /* padding: 8px; */
+    width: 50vh;
+    /* padding-left: 10px; */
+    background-color: #4f5c9c29;
+    
+  }
+  
+  .button button{
+  position: absolute;
+  left: 20px;
+  top: 128px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  padding: 5px 5px;
+  border-radius: 20px;
+  font-weight: 600;
+  }
+
+  /* landing page */
+
+  .main-conatiner h2{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -40px;
+    
+    
+  }
+  .main-conatiner h1{
+    font-size: 40px;
+    letter-spacing: 7px;
+    margin-top: -10px;
+    text-align: center;
+    
+    
+  }
+  .images{
+    margin-top: -30px;
+    
+  }
+  
+  /* secion 2 */
+
+  /* .section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: #DBDEEC29;
+  } */
+  .section-2 h2{
+    font-weight: 400;
+    font-size: large;
+    line-height: 0.1;
+    margin-bottom: -10px;
+    padding-top: 20px;
+    
+  }
+  .section-2 h1{
+    font-size: 70px;
+    line-height: 0.1;
+    letter-spacing: 10px;
+  }
+  .section-2 p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+    margin-top: -10px;
+  }
+  .web-ss-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    gap: 20px;
+    
+  }
+  .web-ss-section img{
+    width: 420px;
+    height: auto;
+    
+  }
+  .web-ss img{
+    border-radius: 20px;
+    
+  }
+  
+
+  /* section 3 */
+
+  .section-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #72768B29;
+    padding-top: 80px;
+  }
+  .right-side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .right-side img{
+    width: 150px;
+    height: auto;
+  }
+  .left-side{
+  margin-left: 20px
+  }
+  .left-side h2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.1;
+    margin-bottom: -10px;
+  }
+  .left-side h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+  
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #72768B29;
+  padding-bottom: 150px;
+}
+.bottom-footer{
+  display: grid;
+  margin-left: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: left;
+  row-gap: 5px;
+  
+}
+.top-footer{
+  margin-left: 10px;
+}
+hr{
+  width: 100%;
+  border-style: dotted;
+  
+}
+
+
+/* floating footer */
+
+
+.floating-footer{
+  position: fixed;
+  bottom: 2%;
+  left: 23%;
+  background-color: #332828;
+  padding: 9px 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  opacity: 0.7;
+
+}
+.btn{
+  width: 0px;
+  height: 0px;
+  border: 1px solid rgb(197, 194, 194);
+  border-radius: 10px;
+  background-color: #8F999ECC;
+  margin: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-1{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  width: 75px;
+  height: 75px;
+  /* margin-left: -10px; */
+}
+
+.btn-2{
+  visibility: hidden;
+}
+.btn-3{
+  visibility: hidden;
+}
+.btn-4{
+  visibility: hidden;
+}
+.btn-5{
+  visibility: hidden;
+}
+
+
+
+}
