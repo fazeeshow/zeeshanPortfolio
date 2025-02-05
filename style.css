@@ -362,14 +362,14 @@ overflow: hidden;
   /* landing page */
 
   .main-conatiner h2{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: -40px;
     
     
   }
   .main-conatiner h1{
-    font-size: 40px;
+    font-size: 70px;
     letter-spacing: 7px;
     margin-top: -10px;
     text-align: center;
@@ -380,6 +380,7 @@ overflow: hidden;
     margin-top: -30px;
     
   }
+ 
   
   /* secion 2 */
 
@@ -393,9 +394,9 @@ overflow: hidden;
   .section-2 h2{
     font-weight: 400;
     font-size: large;
-    line-height: 0.1;
+    line-height: 1;
     margin-bottom: -10px;
-    padding-top: 20px;
+    padding-top: 30px;
     
   }
   .section-2 h1{
@@ -494,10 +495,10 @@ hr{
 .floating-footer{
   position: fixed;
   bottom: 2%;
-  left: 23%;
+  left: 10px;
   background-color: #332828;
   padding: 9px 10px;
-  padding-left: 20px;
+  
   border-radius: 10px;
   opacity: 0.7;
 
@@ -508,10 +509,12 @@ hr{
   border: 1px solid rgb(197, 194, 194);
   border-radius: 10px;
   background-color: #8F999ECC;
-  margin: 0px;
+  margin: 0px ;
   color: white;
   font-weight: 600;
   font-size: 15px;
+  position: relative;
+  left: 10px;
 }
 
 .btn-1{
